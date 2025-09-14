@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+body{
+    background-color: #f3e6d8ff;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+
+}
+hr{
+    border: 1px solid rgba(213, 127, 127, 0.26);
+    
+} 
+.container{
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.img img{
+    width: 100%;
+    border-radius: 20px;
+    
+
+}
+header p{
+    font-size: small;
+    margin-bottom: 60px;
+}
+.preparation{
+    background-color: rgba(243, 134, 213, 0.21);
+    width: 100%;
+    
+    border-radius: 10px;
+    margin: auto;
+    letter-spacing: 1px;
+    padding: 16px;
+
+}
+.preparation h2{
+    color: rgba(123, 40, 79, 1);
+    padding: 8px;
+    margin: 12px;
+    
+    
+}
+.preparation ul li{
+    color: #854632;
+}
+.preparation ul li span{
+      color:#5f210e ;
+      font-weight: bold;
+      
+      
+}
+
+.ingredients ul li::before{
+    content: "•";        /* النقطة */
+    color: #854632;          /* هنا تتحكم في لونها */
+    font-size: 18px;     /* حجمها */
+    margin-right: 10px;
+    
+}
+.ingredients{
+    line-height: 1.8;
+}
+.ingredients h2{
+    color: #854632;
+}
+.ingredients ul li{
+
+    list-style: none;
+}
+
+.instructions{
+
+    word-spacing: 2px;
+}
+.instructions h2{
+    color:#854632;
+}
+.instructions ol li::marker{
+         
+    color: #552c1f;          /* هنا تتحكم في لونها */
+    font-size: 18px;     /* حجمها */
+    margin-right: 10px;
+    
+
+}
+.nutrition h2{
+    color: #552c1f;
+   
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /* يشيل المسافات بين الخلايا */
+}
+
+td, th {
+  padding: 12px;
+  border-bottom: 1px solid #ddd; /* خط خفيف تحت كل صف */
+  text-align: left;
+}
+
+
+
+td:last-child {
+  font-weight: bold;
+  color: #854632; /* اللون الغامق للأرقام */
+}
+
+thead tr th.head2{
+    color: #854632;
+}
